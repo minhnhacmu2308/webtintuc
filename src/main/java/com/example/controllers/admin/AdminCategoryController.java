@@ -25,7 +25,7 @@ public class AdminCategoryController {
         boolean result = adminCategoryService.insert(cat);
         if(result){
             notice.setSuccess(true);
-            notice.setMessage("Add category successfully");
+            notice.setMessage("Add category successfulli");
             return notice;
         }else{
             notice.setSuccess(false);
